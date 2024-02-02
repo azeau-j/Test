@@ -6,7 +6,7 @@ public class Vector2Calculator
     {
         return new Vector2
         {
-            X = left.X + right.X,
+            X = left.X - right.X,
             Y = left.Y + right.Y,
         };
     }

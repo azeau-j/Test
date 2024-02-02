@@ -2,7 +2,7 @@ name: Dotnet
 
 on:
   push:
-    branches: ["create-test"]
+    branches: ["main"]
 
 jobs:
   test:
